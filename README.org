@@ -1,15 +1,17 @@
 #+title: Chatbot Comvest
 
-
 * Usage
-** Installing dependencies
-*** globally (not recommended)
+*** global deps (not recommended)
 #+begin_src sh
 pip install -r requirements.txt
+python chatbot.py
 #+end_src
-*** localy
+*** local deps
 #+begin_src sh
 python -m venv env
 source ./env/bin/activate
 pip install -r requirements.txt # may take a while
+python chatbot.py
 #+end_src
+
+type "exit" to return to the terminal shell
